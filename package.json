@@ -2,17 +2,17 @@
   "name": "grunt-copy-file-content",
   "description": "Copy portions of files into other files.",
   "version": "0.0.1",
-  "homepage": "",
+  "homepage": "https://github.com/keeleycarrigan/grunt-copy-file-content",
   "author": {
     "name": "Keeley Carrigan",
     "url": "http://www.keeleycarrigan.com/"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/keeleycarrigan/grunt-copy-file-content"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/keeleycarrigan/grunt-copy-file-content/issues"
   },
   "licenses": [
     {
@@ -22,7 +22,7 @@
   ],
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "scripts": {
     "test": "grunt test"
@@ -30,11 +30,11 @@
   "devDependencies": {
     "grunt-contrib-jshint": "~0.2.0",
     "grunt-contrib-nodeunit": "~0.1.2",
-    "grunt": "~0.4.0",
+    "grunt": "~0.4.5",
     "grunt-contrib-clean": "~0.5.0"
   },
   "peerDependencies": {
-    "grunt": "~0.4.0"
+    "grunt": "~0.4.1"
   },
   "keywords": [
     "gruntplugin"
